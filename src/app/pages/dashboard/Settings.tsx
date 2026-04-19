@@ -13,6 +13,14 @@ const planPrices: Record<string, string> = {
   enterprise: "Custom",
 };
 
+const notificationItems = [
+  { key: "projectUpdates", label: "Project updates", desc: "Get notified when projects are updated" },
+  { key: "taskAssignments", label: "Task assignments", desc: "When someone assigns you a task" },
+  { key: "teamMentions", label: "Team mentions", desc: "When someone mentions you in a comment" },
+  { key: "weeklyDigest", label: "Weekly digest", desc: "A weekly summary of your workspace activity" },
+  { key: "marketingEmails", label: "Marketing emails", desc: "Product news, tips, and updates from NexaFlow" },
+];
+
 export function Settings() {
   const { user } = useAuth();
 
@@ -33,6 +41,13 @@ export function Settings() {
   const [passwordSaved, setPasswordSaved] = useState(false);
   const [passwordError, setPasswordError] = useState("");
   const [activeTab, setActiveTab] = useState<"profile" | "security" | "plan" | "notifications">("profile");
+  const [notifs, setNotifs] = useState<Record<string, boolean>>({
+    projectUpdates: true,
+    taskAssignments: true,
+    teamMentions: true,
+    weeklyDigest: false,
+    marketingEmails: false,
+  });
 
   const handleProfileSave = (e: React.FormEvent) => {
     e.preventDefault();
