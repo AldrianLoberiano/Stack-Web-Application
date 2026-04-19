@@ -131,3 +131,12 @@ The codebase is organized to keep frontend, backend, styling, and documentation 
    ```bash
    npm run dev
    ```
+
+## Author
+
+Aldrian Loberiano
+
+## License
+
+This project is currently not released under a specific license.
+If you plan to make it public, add a LICENSE file (for example, MIT) and update this section.
