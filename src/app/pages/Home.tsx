@@ -54,7 +54,7 @@ function HeroSection() {
             </p>
 
             <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
-              <Link to="/contact" style={{ textDecoration: "none" }}>
+              <Link to="/signup" style={{ textDecoration: "none" }}>
                 <button style={{
                   padding: "14px 28px",
                   fontSize: "16px",
