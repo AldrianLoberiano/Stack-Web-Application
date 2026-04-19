@@ -1,16 +1,28 @@
 const User = require('../models/User');
+const jwt = require('jsonwebtoken');
+
+const JWT_SECRET = process.env.JWT_SECRET || 'nexaflow_super_secret_key_2024';
+const JWT_EXPIRE = process.env.JWT_EXPIRE || '7d';
+
+const generateToken = (user) => {
+  return jwt.sign(
+    { id: user._id, email: user.email, role: user.role },
+    JWT_SECRET,
+    { expiresIn: JWT_EXPIRE }
+  );
+};
 
 // @desc    Register a new user (sign up)
 // @route   POST /api/users/register
 // @access  Public
 const registerUser = async (req, res) => {
   try {
-    const { firstName, lastName, email, company, plan } = req.body;
+    const { firstName, lastName, email, password, company, plan } = req.body;
 
-    if (!firstName || !lastName || !email) {
+    if (!firstName || !lastName || !email || !password) {
       return res.status(400).json({
         success: false,
-        message: 'Please provide first name, last name, and email.',
+        message: 'Please provide first name, last name, email, and password.',
       });
     }
 
@@ -22,17 +34,96 @@ const registerUser = async (req, res) => {
       });
     }
 
-    const user = await User.create({ firstName, lastName, email, company, plan });
+    const user = await User.create({ firstName, lastName, email, password, company, plan });
+
+    const token = generateToken(user);
 
     res.status(201).json({
       success: true,
       message: 'Account created successfully.',
+      token,
       data: {
         id: user._id,
         firstName: user.firstName,
         lastName: user.lastName,
         email: user.email,
+        company: user.company,
         plan: user.plan,
+        role: user.role,
+        avatar: user.avatar,
+      },
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false, message: 'Server error.' });
+  }
+};
+
+// @desc    Login user
+// @route   POST /api/users/login
+// @access  Public
+const loginUser = async (req, res) => {
+  try {
+    const { email, password } = req.body;
+
+    if (!email || !password) {
+      return res.status(400).json({ success: false, message: 'Please provide email and password.' });
+    }
+
+    const user = await User.findOne({ email }).select('+password');
+    if (!user) {
+      return res.status(401).json({ success: false, message: 'Invalid email or password.' });
+    }
+
+    const isMatch = await user.matchPassword(password);
+    if (!isMatch) {
+      return res.status(401).json({ success: false, message: 'Invalid email or password.' });
+    }
+
+    const token = generateToken(user);
+
+    res.status(200).json({
+      success: true,
+      message: 'Login successful.',
+      token,
+      data: {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        company: user.company,
+        plan: user.plan,
+        role: user.role,
+        avatar: user.avatar,
+      },
+    });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ success: false, message: 'Server error.' });
+  }
+};
+
+// @desc    Get current logged-in user
+// @route   GET /api/users/me
+// @access  Private
+const getMe = async (req, res) => {
+  try {
+    const user = await User.findById(req.user.id);
+    if (!user) {
+      return res.status(404).json({ success: false, message: 'User not found.' });
+    }
+    res.status(200).json({
+      success: true,
+      data: {
+        id: user._id,
+        firstName: user.firstName,
+        lastName: user.lastName,
+        email: user.email,
+        company: user.company,
+        plan: user.plan,
+        role: user.role,
+        avatar: user.avatar,
+        createdAt: user.createdAt,
       },
     });
   } catch (error) {
@@ -52,4 +143,4 @@ const getUsers = async (req, res) => {
   }
 };
 
-module.exports = { registerUser, getUsers };
+module.exports = { registerUser, loginUser, getMe, getUsers };
