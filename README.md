@@ -1,6 +1,4 @@
-# MERN Stack Web Application
-
-## Project Description
+# Project Description
 
 This project is a full-stack web application starter built with a React + Vite frontend and a Node.js + Express backend.
 It includes reusable UI components, multi-page routing, and sample API modules for user and contact features.
