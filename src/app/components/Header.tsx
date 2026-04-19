@@ -86,7 +86,7 @@ export function Header() {
 
         {/* CTA Buttons */}
         <div style={{ display: "flex", alignItems: "center", gap: "12px" }} className="desktop-nav">
-          <Link to="/contact" style={{ textDecoration: "none" }}>
+          <Link to="/login" style={{ textDecoration: "none" }}>
             <button style={{
               padding: "9px 20px",
               fontSize: "15px",
@@ -100,7 +100,7 @@ export function Header() {
               Log In
             </button>
           </Link>
-          <Link to="/contact" style={{ textDecoration: "none" }}>
+          <Link to="/signup" style={{ textDecoration: "none" }}>
             <button style={{
               padding: "9px 20px",
               fontSize: "15px",
@@ -164,7 +164,7 @@ export function Header() {
             </Link>
           ))}
           <div style={{ marginTop: "16px", display: "flex", flexDirection: "column", gap: "10px" }}>
-            <Link to="/contact" onClick={() => setMobileOpen(false)} style={{ textDecoration: "none" }}>
+            <Link to="/login" onClick={() => setMobileOpen(false)} style={{ textDecoration: "none" }}>
               <button style={{
                 width: "100%",
                 padding: "10px",
@@ -179,7 +179,7 @@ export function Header() {
                 Log In
               </button>
             </Link>
-            <Link to="/contact" onClick={() => setMobileOpen(false)} style={{ textDecoration: "none" }}>
+            <Link to="/signup" onClick={() => setMobileOpen(false)} style={{ textDecoration: "none" }}>
               <button style={{
                 width: "100%",
                 padding: "10px",
