@@ -77,11 +77,10 @@ export function DashboardLayout() {
         flexDirection: "column",
         position: "fixed",
         top: 0,
-        left: sidebarOpen ? 0 : undefined,
         bottom: 0,
         zIndex: 50,
         flexShrink: 0,
-      }} className="dashboard-sidebar">
+      }} className={`dashboard-sidebar${sidebarOpen ? " open" : ""}`}>
         {/* Logo */}
         <div style={{ padding: "20px 20px", borderBottom: "1px solid #F3F4F6" }}>
           <Link to="/" style={{ textDecoration: "none", display: "flex", alignItems: "center", gap: "10px" }}>
