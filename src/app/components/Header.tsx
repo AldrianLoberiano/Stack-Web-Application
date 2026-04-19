@@ -19,8 +19,9 @@ export function Header() {
     <header style={{
       backgroundColor: "#FFFFFF",
       borderBottom: "1px solid #E5E7EB",
-      position: "relative",
-      zIndex: 100,
+      position: "sticky",
+      top: 0,
+      zIndex: 1000,
     }}>
       <div style={{
         maxWidth: "1200px",
