@@ -322,49 +322,40 @@ export function Settings() {
                 <p style={{ fontSize: "13px", color: "#6B7280", margin: 0 }}>Choose how you receive notifications</p>
               </div>
               <div style={{ padding: "24px", display: "flex", flexDirection: "column", gap: "0" }}>
-                {[
-                  { label: "Project updates", desc: "Get notified when projects are updated", on: true },
-                  { label: "Task assignments", desc: "When someone assigns you a task", on: true },
-                  { label: "Team mentions", desc: "When someone mentions you in a comment", on: true },
-                  { label: "Weekly digest", desc: "A weekly summary of your workspace activity", on: false },
-                  { label: "Marketing emails", desc: "Product news, tips, and updates from NexaFlow", on: false },
-                ].map((item, i) => {
-                  const [on, setOn] = useState(item.on);
-                  return (
-                    <div key={i} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 0", borderBottom: "1px solid #F3F4F6" }}>
-                      <div>
-                        <p style={{ fontSize: "14px", fontWeight: "600", color: "#111827", margin: "0 0 2px" }}>{item.label}</p>
-                        <p style={{ fontSize: "13px", color: "#6B7280", margin: 0 }}>{item.desc}</p>
-                      </div>
-                      <button
-                        onClick={() => setOn(!on)}
-                        style={{
-                          width: "44px",
-                          height: "24px",
-                          borderRadius: "100px",
-                          backgroundColor: on ? "#1A56DB" : "#D1D5DB",
-                          border: "none",
-                          cursor: "pointer",
-                          position: "relative",
-                          transition: "background-color 0.2s",
-                          flexShrink: 0,
-                        }}
-                      >
-                        <div style={{
-                          position: "absolute",
-                          top: "2px",
-                          left: on ? "22px" : "2px",
-                          width: "20px",
-                          height: "20px",
-                          borderRadius: "50%",
-                          backgroundColor: "#FFFFFF",
-                          transition: "left 0.2s",
-                          boxShadow: "0 1px 3px rgba(0,0,0,0.2)",
-                        }} />
-                      </button>
+                {notificationItems.map((item) => (
+                  <div key={item.key} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "16px 0", borderBottom: "1px solid #F3F4F6" }}>
+                    <div>
+                      <p style={{ fontSize: "14px", fontWeight: "600", color: "#111827", margin: "0 0 2px" }}>{item.label}</p>
+                      <p style={{ fontSize: "13px", color: "#6B7280", margin: 0 }}>{item.desc}</p>
                     </div>
-                  );
-                })}
+                    <button
+                      onClick={() => setNotifs({ ...notifs, [item.key]: !notifs[item.key] })}
+                      style={{
+                        width: "44px",
+                        height: "24px",
+                        borderRadius: "100px",
+                        backgroundColor: notifs[item.key] ? "#1A56DB" : "#D1D5DB",
+                        border: "none",
+                        cursor: "pointer",
+                        position: "relative",
+                        transition: "background-color 0.2s",
+                        flexShrink: 0,
+                      }}
+                    >
+                      <div style={{
+                        position: "absolute",
+                        top: "2px",
+                        left: notifs[item.key] ? "22px" : "2px",
+                        width: "20px",
+                        height: "20px",
+                        borderRadius: "50%",
+                        backgroundColor: "#FFFFFF",
+                        transition: "left 0.2s",
+                        boxShadow: "0 1px 3px rgba(0,0,0,0.2)",
+                      }} />
+                    </button>
+                  </div>
+                ))}
               </div>
             </div>
           )}
