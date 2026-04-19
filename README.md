@@ -138,5 +138,4 @@ Aldrian Loberiano
 
 ## License
 
-This project is currently not released under a specific license.
-If you plan to make it public, add a LICENSE file (for example, MIT) and update this section.
+If you want to contribute, feel free to fork this repository, create a feature branch, and submit a pull request.
