@@ -8,12 +8,12 @@ import { Contact } from "./pages/Contact";
 import { NotFound } from "./pages/NotFound";
 import { Login } from "./pages/Login";
 import { SignUp } from "./pages/SignUp";
-import { DashboardLayout } from "./components/DashboardLayout";
+import { DashboardLayout } from "./components/layouts/DashboardLayout";
 import { Dashboard } from "./pages/dashboard/Dashboard";
 import { Projects } from "./pages/dashboard/Projects";
 import { Team } from "./pages/dashboard/Team";
 import { Settings } from "./pages/dashboard/Settings";
-import { ProtectedRoute } from "./components/ProtectedRoute";
+import { ProtectedRoute } from "./components/guards/ProtectedRoute";
 
 export const router = createBrowserRouter([
   // Auth pages (no header/footer)
