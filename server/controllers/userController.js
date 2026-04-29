@@ -58,6 +58,7 @@ const registerUser = async (req, res) => {
       firstName,
       lastName,
       email,
+      password: hashedPassword,
 
     const token = generateToken(user);
 
