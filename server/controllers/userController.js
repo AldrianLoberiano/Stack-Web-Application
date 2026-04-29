@@ -30,6 +30,7 @@ const toUserPayload = (user, includeCreatedAt = false) => ({
   avatar: user.avatar,
   ...(includeCreatedAt ? { createdAt: user.createdAt } : {}),
 });
+
 // @desc    Register a new user (sign up)
 // @route   POST /api/users/register
 // @access  Public
