@@ -104,7 +104,6 @@ const loginUser = async (req, res) => {
       success: true,
       message: 'Login successful.',
       token,
-        avatar: user.avatar,
       },
     });
   } catch (error) {
