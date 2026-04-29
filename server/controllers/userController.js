@@ -69,7 +69,6 @@ const registerUser = async (req, res) => {
       success: true,
       message: 'Account created successfully.',
       token,
-        firstName: user.firstName,
         lastName: user.lastName,
         email: user.email,
         company: user.company,
