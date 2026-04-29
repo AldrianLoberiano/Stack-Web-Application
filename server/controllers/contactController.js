@@ -48,6 +48,5 @@ const getContacts = async (req, res) => {
   }
 };
 
-  "raw": "John",
   "full_match": 
 }
