@@ -26,6 +26,7 @@ const toUserPayload = (user, includeCreatedAt = false) => ({
   email: user.email,
   company: user.company,
   plan: user.plan,
+  role: user.role,
 // @desc    Register a new user (sign up)
 // @route   POST /api/users/register
 // @access  Public
