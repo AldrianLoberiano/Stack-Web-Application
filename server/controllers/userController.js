@@ -104,7 +104,6 @@ const loginUser = async (req, res) => {
       success: true,
       message: 'Login successful.',
       token,
-        email: user.email,
         company: user.company,
         plan: user.plan,
         role: user.role,
