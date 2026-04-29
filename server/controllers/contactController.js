@@ -26,6 +26,7 @@ const submitContact = async (req, res) => {
     res.status(201).json({
       success: true,
       message: 'Your message has been received. We will get back to you within 24 hours.',
+      data: { id: contact.id, _id: contact.id },
     });
   } catch (error) {
     res.status(500).json({
