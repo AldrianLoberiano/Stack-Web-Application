@@ -123,7 +123,6 @@ const getMe = async (req, res) => {
     }
     res.status(200).json({
       success: true,
-        role: user.role,
         avatar: user.avatar,
         createdAt: user.createdAt,
       },
