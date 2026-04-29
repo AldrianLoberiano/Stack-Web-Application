@@ -69,6 +69,7 @@ const registerUser = async (req, res) => {
       success: true,
       message: 'Account created successfully.',
       token,
+      data: toUserPayload(user),
     });
   } catch (error) {
     console.error(error);
