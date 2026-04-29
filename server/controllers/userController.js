@@ -19,6 +19,7 @@ const generateToken = (user) => {
 };
 
 const toUserPayload = (user, includeCreatedAt = false) => ({
+  id: user.id,
 // @desc    Register a new user (sign up)
 // @route   POST /api/users/register
 // @access  Public
