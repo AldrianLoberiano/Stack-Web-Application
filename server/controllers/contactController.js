@@ -1,3 +1,4 @@
+const { createContact, listContacts } = require('../db/sqlite');
 
 // @desc    Submit a contact form
 // @route   POST /api/contact
