@@ -123,7 +123,6 @@ const getMe = async (req, res) => {
     }
     res.status(200).json({
       success: true,
-        email: user.email,
         company: user.company,
         plan: user.plan,
         role: user.role,
