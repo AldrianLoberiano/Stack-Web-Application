@@ -14,6 +14,7 @@ const submitContact = async (req, res) => {
       });
     }
 
+    const contact = await createContact({
       firstName,
       lastName,
       email,
