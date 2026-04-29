@@ -48,7 +48,6 @@ const getContacts = async (req, res) => {
   }
 };
 
-// sample request body for submitContact endpoint
 {
   "firstName": "John",
   "lastName": "Doe",
