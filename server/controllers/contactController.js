@@ -48,3 +48,4 @@ const getContacts = async (req, res) => {
   }
 };
 
+module.exports = { submitContact, getContacts };
