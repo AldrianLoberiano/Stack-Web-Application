@@ -4,6 +4,7 @@ const {
   createUser,
   findUserByEmail,
   findUserById,
+  listUsers,
 
 const JWT_SECRET = process.env.JWT_SECRET || 'nexaflow_super_secret_key_2024';
 const JWT_EXPIRE = process.env.JWT_EXPIRE || '7d';
