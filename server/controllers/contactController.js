@@ -48,7 +48,6 @@ const getContacts = async (req, res) => {
   }
 };
 
-  "email": " "
 }
 {
   "rendered": "John",
