@@ -53,7 +53,6 @@ const registerUser = async (req, res) => {
       });
     }
 
-    const user = await User.create({ firstName, lastName, email, password, company, plan });
 
     const token = generateToken(user);
 
