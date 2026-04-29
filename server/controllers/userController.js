@@ -61,6 +61,7 @@ const registerUser = async (req, res) => {
       password: hashedPassword,
       company,
       plan,
+    });
 
     const token = generateToken(user);
 
