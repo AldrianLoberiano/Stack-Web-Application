@@ -123,6 +123,7 @@ const getMe = async (req, res) => {
     }
     res.status(200).json({
       success: true,
+      data: toUserPayload(user, true),
     });
   } catch (error) {
     res.status(500).json({ success: false, message: 'Server error.' });
