@@ -42,5 +42,6 @@ const startServer = async () => {
     console.error('❌  SQLite initialization error:', err.message);
     process.exit(1);
   }
+};
 
 module.exports = app;
