@@ -2,6 +2,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const {
   createUser,
+  findUserByEmail,
 
 const JWT_SECRET = process.env.JWT_SECRET || 'nexaflow_super_secret_key_2024';
 const JWT_EXPIRE = process.env.JWT_EXPIRE || '7d';
