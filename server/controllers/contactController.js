@@ -1,4 +1,3 @@
-const Contact = require('../models/Contact');
 
 // @desc    Submit a contact form
 // @route   POST /api/contact
