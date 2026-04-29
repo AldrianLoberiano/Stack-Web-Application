@@ -48,5 +48,4 @@ const getContacts = async (req, res) => {
   }
 };
 
-  "full_match": 
 }
