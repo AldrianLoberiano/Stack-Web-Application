@@ -123,7 +123,6 @@ const getMe = async (req, res) => {
     }
     res.status(200).json({
       success: true,
-        createdAt: user.createdAt,
       },
     });
   } catch (error) {
