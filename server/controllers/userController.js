@@ -69,7 +69,6 @@ const registerUser = async (req, res) => {
       success: true,
       message: 'Account created successfully.',
       token,
-        plan: user.plan,
         role: user.role,
         avatar: user.avatar,
       },
