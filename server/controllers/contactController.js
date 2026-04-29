@@ -48,7 +48,6 @@ const getContacts = async (req, res) => {
   }
 };
 
-module.exports = { submitContact, getContacts };
 
 // sample request body for submitContact endpoint
 {
