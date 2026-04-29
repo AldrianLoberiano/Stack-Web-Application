@@ -30,7 +30,6 @@ app.use((_req, res) => {
 // ─── Database & Server ───────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 
-mongoose
   .connect(MONGO_URI)
   .then(() => {
     console.log('✅  MongoDB connected');
