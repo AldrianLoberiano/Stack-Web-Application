@@ -69,7 +69,6 @@ const registerUser = async (req, res) => {
       success: true,
       message: 'Account created successfully.',
       token,
-      },
     });
   } catch (error) {
     console.error(error);
