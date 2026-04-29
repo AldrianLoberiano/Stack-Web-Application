@@ -49,3 +49,15 @@ const getContacts = async (req, res) => {
 };
 
 module.exports = { submitContact, getContacts };
+
+// sample request body for submitContact endpoint
+{
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": " "
+}
+{
+  "rendered": "John",
+  "raw": "John",
+  "full_match": 
+}
