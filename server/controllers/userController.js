@@ -45,6 +45,7 @@ const registerUser = async (req, res) => {
       });
     }
 
+    const existing = await findUserByEmail(email);
     if (existing) {
       return res.status(409).json({
         success: false,
