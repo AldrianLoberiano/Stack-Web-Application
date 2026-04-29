@@ -39,6 +39,7 @@ const startServer = async () => {
       console.log(`🚀  Server running on http://localhost:${PORT}`);
     });
   } catch (err) {
+    console.error('❌  SQLite initialization error:', err.message);
     process.exit(1);
   });
 
