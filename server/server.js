@@ -29,7 +29,6 @@ app.use((_req, res) => {
 
 // ─── Database & Server ───────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/nexaflow';
 
 mongoose
   .connect(MONGO_URI)
