@@ -104,6 +104,7 @@ const loginUser = async (req, res) => {
       success: true,
       message: 'Login successful.',
       token,
+      data: toUserPayload(user),
     });
   } catch (error) {
     console.error(error);
