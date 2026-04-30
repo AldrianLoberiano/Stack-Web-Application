@@ -52,3 +52,4 @@ const findUserById = async (id) => {
   return { ...publicUser };
 };
 
+const listUsers = async () => {
