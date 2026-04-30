@@ -7,3 +7,4 @@ const initializeDatabase = async () => {
   return undefined;
 };
 
+const createUser = async ({ firstName, lastName, email, password, company, plan }) => {
