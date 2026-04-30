@@ -73,3 +73,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
   return { ...contact };
 };
 
+const listContacts = async () => {
