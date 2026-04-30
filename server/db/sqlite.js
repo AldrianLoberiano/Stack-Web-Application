@@ -80,3 +80,4 @@ const listContacts = async () => {
 module.exports = {
   initializeDatabase,
   createUser,
+  findUserByEmail,
