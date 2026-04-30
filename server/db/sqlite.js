@@ -48,3 +48,4 @@ const findUserById = async (id) => {
     return null;
   }
 
+  const { password, ...publicUser } = user;
