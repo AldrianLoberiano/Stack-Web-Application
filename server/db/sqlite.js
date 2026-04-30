@@ -37,3 +37,4 @@ const findUserByEmail = async (email, options = {}) => {
     return { ...user };
   }
 
+  const { password, ...publicUser } = user;
