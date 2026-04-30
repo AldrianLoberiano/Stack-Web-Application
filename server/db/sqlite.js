@@ -11,3 +11,4 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
   const now = new Date().toISOString();
   const user = {
     id: randomUUID(),
+    firstName,
