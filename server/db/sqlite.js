@@ -31,3 +31,4 @@ const findUserByEmail = async (email, options = {}) => {
 
   if (!user) {
     return null;
+  }
