@@ -69,3 +69,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
     createdAt: new Date().toISOString(),
   };
 
+  contacts.push(contact);
