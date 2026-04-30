@@ -33,3 +33,4 @@ const findUserByEmail = async (email, options = {}) => {
     return null;
   }
 
+  if (options.includePassword) {
