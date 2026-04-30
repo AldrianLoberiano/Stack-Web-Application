@@ -60,3 +60,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
   const contact = {
     id: randomUUID(),
     firstName,
+    lastName,
