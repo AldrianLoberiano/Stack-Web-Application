@@ -26,3 +26,4 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
   return { ...user };
 };
 
+const findUserByEmail = async (email, options = {}) => {
