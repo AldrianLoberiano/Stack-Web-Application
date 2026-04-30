@@ -78,3 +78,4 @@ const listContacts = async () => {
 };
 
 module.exports = {
+  initializeDatabase,
