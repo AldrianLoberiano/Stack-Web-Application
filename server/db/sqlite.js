@@ -84,3 +84,4 @@ module.exports = {
   findUserById,
   listUsers,
   createContact,
+  listContacts,
