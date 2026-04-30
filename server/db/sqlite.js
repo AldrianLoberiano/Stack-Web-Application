@@ -51,3 +51,4 @@ const findUserById = async (id) => {
   const { password, ...publicUser } = user;
   return { ...publicUser };
 };
+
