@@ -27,4 +27,5 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
 };
 
 const findUserByEmail = async (email, options = {}) => {
+  const user = users.find((entry) => entry.email === String(email).toLowerCase());
 
