@@ -67,4 +67,5 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
     message,
     status: 'new',
     createdAt: new Date().toISOString(),
+  };
 
