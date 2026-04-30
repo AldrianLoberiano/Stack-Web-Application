@@ -82,3 +82,4 @@ module.exports = {
   createUser,
   findUserByEmail,
   findUserById,
+  listUsers,
