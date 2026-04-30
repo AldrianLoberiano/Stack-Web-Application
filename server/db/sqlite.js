@@ -41,3 +41,4 @@ const findUserByEmail = async (email, options = {}) => {
   return { ...publicUser };
 };
 
+const findUserById = async (id) => {
