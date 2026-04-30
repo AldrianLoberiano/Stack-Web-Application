@@ -56,3 +56,4 @@ const listUsers = async () => {
   return users.map(({ password, ...user }) => ({ ...user }));
 };
 
+const createContact = async ({ firstName, lastName, email, company, subject, message }) => {
