@@ -63,3 +63,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
     lastName,
     email: email.toLowerCase(),
     company: company || '',
+    subject: subject || 'General Inquiry',
