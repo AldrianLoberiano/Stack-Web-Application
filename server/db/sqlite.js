@@ -18,3 +18,4 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
     company: company || '',
     plan: plan || 'starter',
     role: 'user',
+    avatar: '',
