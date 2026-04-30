@@ -54,3 +54,4 @@ const findUserById = async (id) => {
 
 const listUsers = async () => {
   return users.map(({ password, ...user }) => ({ ...user }));
+};
