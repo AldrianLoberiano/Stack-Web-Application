@@ -61,3 +61,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
     id: randomUUID(),
     firstName,
     lastName,
+    email: email.toLowerCase(),
