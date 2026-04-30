@@ -75,3 +75,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
 
 const listContacts = async () => {
   return contacts.map((contact) => ({ ...contact }));
+
