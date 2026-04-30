@@ -72,3 +72,4 @@ const createContact = async ({ firstName, lastName, email, company, subject, mes
   contacts.push(contact);
   return { ...contact };
 };
+
