@@ -59,3 +59,4 @@ const listUsers = async () => {
 const createContact = async ({ firstName, lastName, email, company, subject, message }) => {
   const contact = {
     id: randomUUID(),
+    firstName,
