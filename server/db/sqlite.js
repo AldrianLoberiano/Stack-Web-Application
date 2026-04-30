@@ -77,3 +77,4 @@ const listContacts = async () => {
   return contacts.map((contact) => ({ ...contact }));
 };
 
+module.exports = {
