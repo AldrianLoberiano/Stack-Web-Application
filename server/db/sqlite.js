@@ -30,3 +30,4 @@ const findUserByEmail = async (email, options = {}) => {
   const user = users.find((entry) => entry.email === String(email).toLowerCase());
 
   if (!user) {
+    return null;
