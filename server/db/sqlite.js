@@ -13,3 +13,4 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
     id: randomUUID(),
     firstName,
     lastName,
+    email: email.toLowerCase(),
