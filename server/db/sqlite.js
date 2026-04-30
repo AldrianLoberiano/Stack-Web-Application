@@ -16,3 +16,4 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
     email: email.toLowerCase(),
     password,
     company: company || '',
+    plan: plan || 'starter',
