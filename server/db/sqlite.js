@@ -22,4 +22,5 @@ const createUser = async ({ firstName, lastName, email, password, company, plan 
     createdAt: now,
   };
 
+  users.push(user);
   return { ...user };
