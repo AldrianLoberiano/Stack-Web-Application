@@ -6,3 +6,4 @@ const contacts = [];
 const initializeDatabase = async () => {
   return undefined;
 };
+
