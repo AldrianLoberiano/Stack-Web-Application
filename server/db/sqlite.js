@@ -85,3 +85,4 @@ module.exports = {
   listUsers,
   createContact,
   listContacts,
+};
