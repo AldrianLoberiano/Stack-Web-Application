@@ -4,3 +4,4 @@ const users = [];
 const contacts = [];
 
 const initializeDatabase = async () => {
+  return undefined;
