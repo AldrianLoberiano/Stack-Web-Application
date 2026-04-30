@@ -45,3 +45,4 @@ const findUserById = async (id) => {
   const user = users.find((entry) => entry.id === id);
 
   if (!user) {
+    return null;
