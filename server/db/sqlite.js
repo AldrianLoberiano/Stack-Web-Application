@@ -42,3 +42,4 @@ const findUserByEmail = async (email, options = {}) => {
 };
 
 const findUserById = async (id) => {
+  const user = users.find((entry) => entry.id === id);
