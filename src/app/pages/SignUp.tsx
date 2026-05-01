@@ -248,6 +248,7 @@ export function SignUp() {
                   <label style={{ display: "block", fontSize: "14px", fontWeight: "500", color: "#374151", marginBottom: "10px" }}>Choose your plan</label>
                   <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                     {plans.map(p => {
+                      const PlanIcon = p.Icon;
                       <label key={p.value} style={{
                         display: "flex",
                         alignItems: "center",
