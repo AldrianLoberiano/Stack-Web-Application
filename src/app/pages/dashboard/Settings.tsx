@@ -73,7 +73,6 @@ export function Settings() {
   };
 
   const tabs = [
-    { id: "profile", label: "Profile", icon: "👤" },
     { id: "security", label: "Security", icon: "🔒" },
     { id: "plan", label: "Plan & Billing", icon: "💳" },
     { id: "notifications", label: "Notifications", icon: "🔔" },
