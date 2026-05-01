@@ -296,6 +296,7 @@ export function SignUp() {
                     style={{ flex: "0 0 auto", padding: "12px 20px", fontSize: "15px", fontWeight: "500", color: "#374151", backgroundColor: "#FFFFFF", border: "1px solid #D1D5DB", borderRadius: "8px", cursor: "pointer" }}
                   >
                     <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                      <ChevronLeft size={16} />
                   </button>
                   <button
                     id="signup-submit"
