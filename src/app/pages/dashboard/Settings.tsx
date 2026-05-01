@@ -112,6 +112,7 @@ export function Settings() {
                 width: "100%",
               }}
             >
+              <TabIcon size={16} />
               {tab.label}
             </button>
           ))}
