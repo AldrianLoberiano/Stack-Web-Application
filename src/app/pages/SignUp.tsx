@@ -297,6 +297,7 @@ export function SignUp() {
                   >
                     <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                       <ChevronLeft size={16} />
+                      Back
                   </button>
                   <button
                     id="signup-submit"
