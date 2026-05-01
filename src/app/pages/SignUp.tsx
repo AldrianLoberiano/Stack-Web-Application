@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router";
+import { Building2, ChevronLeft, ChevronRight, PartyPopper, Rocket, Zap } from "lucide-react";
 import { useAuth } from "../context/AuthContext";
 
 export function SignUp() {
