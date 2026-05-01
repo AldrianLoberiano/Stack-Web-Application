@@ -73,6 +73,7 @@ export function Settings() {
   };
 
   const tabs = [
+    { id: "profile", label: "Profile", Icon: User },
   ] as const;
 
   return (
