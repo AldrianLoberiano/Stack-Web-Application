@@ -65,7 +65,6 @@ export function Team() {
       {/* Stats Row */}
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "16px", marginBottom: "24px" }} className="team-stats-grid">
         {[
-          { label: "Total Members", value: members.length, icon: "👥" },
           { label: "Active Now", value: members.filter(m => m.status === "active").length, icon: "🟢" },
           { label: "Departments", value: [...new Set(members.map(m => m.department))].length, icon: "🏢" },
         ].map(s => (
