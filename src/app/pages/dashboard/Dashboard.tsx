@@ -66,6 +66,7 @@ const recentActivity = [
 ];
 
 const quickActions = [
+  { label: "New Project", Icon: FolderOpen, path: "/dashboard/projects" },
 ];
 
 function ActivityIcon({ type }: { type: string }) {
