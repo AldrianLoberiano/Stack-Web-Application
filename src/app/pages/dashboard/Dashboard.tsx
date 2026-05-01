@@ -179,6 +179,7 @@ export function Dashboard() {
                   </div>
                   <p style={{ fontSize: "12px", fontWeight: "600", color: "#374151", margin: 0 }}>{a.label}</p>
                 </div>
+                  );
               </Link>
             ))}
           </div>
