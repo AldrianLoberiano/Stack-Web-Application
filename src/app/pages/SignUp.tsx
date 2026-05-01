@@ -316,6 +316,7 @@ export function SignUp() {
                         <PartyPopper size={16} />
                         Create Account
                       </span>
+                    )}
                   </button>
                 </div>
               </div>
