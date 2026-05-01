@@ -174,7 +174,6 @@ export function Dashboard() {
                     (e.currentTarget as HTMLElement).style.borderColor = "#F3F4F6";
                   }}
                 >
-                  <div style={{ fontSize: "24px", marginBottom: "6px" }}>{a.icon}</div>
                   <p style={{ fontSize: "12px", fontWeight: "600", color: "#374151", margin: 0 }}>{a.label}</p>
                 </div>
               </Link>
