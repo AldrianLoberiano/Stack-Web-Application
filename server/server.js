@@ -36,7 +36,6 @@ const startServer = async () => {
     console.log('[OK] SQLite database ready');
 
     app.listen(PORT, () => {
-      console.log(`🚀  Server running on http://localhost:${PORT}`);
     });
   } catch (err) {
     console.error('❌  SQLite initialization error:', err.message);
