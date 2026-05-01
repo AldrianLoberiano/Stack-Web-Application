@@ -67,6 +67,7 @@ const recentActivity = [
 
 const quickActions = [
   { label: "New Project", Icon: FolderOpen, path: "/dashboard/projects" },
+  { label: "Invite Member", Icon: Users, path: "/dashboard/team" },
 ];
 
 function ActivityIcon({ type }: { type: string }) {
