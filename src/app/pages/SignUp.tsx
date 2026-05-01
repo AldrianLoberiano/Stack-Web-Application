@@ -285,6 +285,7 @@ export function SignUp() {
                         )}
                       </label>
                       );
+                    })}
                   </div>
                 </div>
 
