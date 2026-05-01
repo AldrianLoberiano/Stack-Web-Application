@@ -110,7 +110,6 @@ export function Dashboard() {
             {new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}
           </p>
           <h1 style={{ fontSize: "26px", fontWeight: "700", color: "#FFFFFF", margin: "0 0 8px" }}>
-            Good {new Date().getHours() < 12 ? "morning" : new Date().getHours() < 18 ? "afternoon" : "evening"}, {user?.firstName}! 👋
           </h1>
           <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.8)", margin: 0 }}>
             You have <strong>5 tasks</strong> due today. Let's get it done!
