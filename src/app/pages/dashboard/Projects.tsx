@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { FolderOpen } from "lucide-react";
 
 const initialProjects = [
   { id: 1, name: "Q2 Marketing Campaign", status: "active", progress: 68, members: 4, tasks: { done: 17, total: 25 }, color: "#1A56DB", updated: "2 hours ago" },
