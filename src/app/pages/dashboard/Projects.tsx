@@ -153,6 +153,7 @@ export function Projects() {
       {filtered.length === 0 && (
         <div style={{ textAlign: "center", padding: "60px 20px" }}>
           <div style={{ marginBottom: "12px", display: "flex", justifyContent: "center" }}>
+            <FolderOpen size={44} color="#6B7280" />
           <p style={{ fontSize: "16px", fontWeight: "600", color: "#374151", margin: "0 0 8px" }}>No projects found</p>
           <p style={{ fontSize: "14px", color: "#6B7280" }}>Try a different filter or create a new project.</p>
         </div>
