@@ -251,6 +251,7 @@ export function Settings() {
                 {passwordSaved && (
                   <div style={{ padding: "10px 14px", backgroundColor: "#DCFCE7", border: "1px solid #BBF7D0", borderRadius: "8px", display: "flex", alignItems: "center", gap: "8px" }}>
                     <CheckCircle2 size={16} color="#16A34A" />
+                    <span style={{ fontSize: "13px", color: "#16A34A", fontWeight: "600" }}>Password updated successfully!</span>
                   </div>
                 )}
 
