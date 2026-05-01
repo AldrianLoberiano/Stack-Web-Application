@@ -116,6 +116,7 @@ export function Settings() {
               {tab.label}
             </button>
               );
+            })()
           ))}
         </div>
 
