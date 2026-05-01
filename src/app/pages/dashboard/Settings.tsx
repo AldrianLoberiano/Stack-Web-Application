@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Bell, CheckCircle2, CreditCard, Lock, User } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 
 const planFeatures: Record<string, string[]> = {
