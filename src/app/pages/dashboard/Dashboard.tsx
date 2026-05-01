@@ -66,7 +66,6 @@ const recentActivity = [
 ];
 
 const quickActions = [
-  { label: "View Reports", icon: "📊", path: "/dashboard" },
 ];
 
 function ActivityIcon({ type }: { type: string }) {
