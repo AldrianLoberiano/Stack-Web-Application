@@ -249,6 +249,7 @@ export function Settings() {
                   </div>
                 )}
                 {passwordSaved && (
+                  <div style={{ padding: "10px 14px", backgroundColor: "#DCFCE7", border: "1px solid #BBF7D0", borderRadius: "8px", display: "flex", alignItems: "center", gap: "8px" }}>
                   </div>
                 )}
 
