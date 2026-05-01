@@ -313,6 +313,7 @@ export function SignUp() {
                       </>
                     ) : (
                       <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                        <PartyPopper size={16} />
                   </button>
                 </div>
               </div>
