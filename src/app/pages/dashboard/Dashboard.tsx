@@ -66,7 +66,6 @@ const recentActivity = [
 ];
 
 const quickActions = [
-  { label: "Invite Member", icon: "👥", path: "/dashboard/team" },
   { label: "Build Workflow", icon: "⚡", path: "/dashboard/projects" },
   { label: "View Reports", icon: "📊", path: "/dashboard" },
 ];
