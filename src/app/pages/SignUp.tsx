@@ -220,6 +220,7 @@ export function SignUp() {
                   style={{ width: "100%", padding: "12px", fontSize: "15px", fontWeight: "600", color: "#FFFFFF", backgroundColor: "#1A56DB", border: "none", borderRadius: "8px", cursor: "pointer" }}
                 >
                   <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
+                    Continue
                 </button>
               </div>
             )}
