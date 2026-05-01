@@ -79,6 +79,7 @@ export function Team() {
               </svg>
             ),
           },
+          {
         ].map(s => (
           <div key={s.label} style={{ backgroundColor: "#FFFFFF", border: "1px solid #E5E7EB", borderRadius: "12px", padding: "18px 20px", display: "flex", alignItems: "center", gap: "14px" }}>
             <span style={{ fontSize: "26px" }}>{s.icon}</span>
