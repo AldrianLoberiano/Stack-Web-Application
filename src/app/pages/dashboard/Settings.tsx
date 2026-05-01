@@ -249,7 +249,6 @@ export function Settings() {
                   </div>
                 )}
                 {passwordSaved && (
-                    <span style={{ fontSize: "13px", color: "#16A34A", fontWeight: "600" }}>✅ Password updated successfully!</span>
                   </div>
                 )}
 
