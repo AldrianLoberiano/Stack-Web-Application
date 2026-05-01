@@ -112,6 +112,7 @@ export function Dashboard() {
           <h1 style={{ fontSize: "26px", fontWeight: "700", color: "#FFFFFF", margin: "0 0 8px" }}>
             <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
               Good {new Date().getHours() < 12 ? "morning" : new Date().getHours() < 18 ? "afternoon" : "evening"}, {user?.firstName}!
+              <Hand size={18} />
           </h1>
           <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.8)", margin: 0 }}>
             You have <strong>5 tasks</strong> due today. Let's get it done!
