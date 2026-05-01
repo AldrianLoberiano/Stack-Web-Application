@@ -154,6 +154,7 @@ export function Dashboard() {
             {quickActions.map(a => (
               <Link key={a.label} to={a.path} style={{ textDecoration: "none" }}>
                 {(() => {
+                  const QuickIcon = a.Icon;
                 <div style={{
                   padding: "16px",
                   backgroundColor: "#F9FAFB",
