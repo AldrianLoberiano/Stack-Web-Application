@@ -249,6 +249,7 @@ export function SignUp() {
                   <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                     {plans.map(p => {
                       const PlanIcon = p.Icon;
+                      return (
                       <label key={p.value} style={{
                         display: "flex",
                         alignItems: "center",
