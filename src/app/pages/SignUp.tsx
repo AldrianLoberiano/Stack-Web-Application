@@ -219,7 +219,6 @@ export function SignUp() {
                   }}
                   style={{ width: "100%", padding: "12px", fontSize: "15px", fontWeight: "600", color: "#FFFFFF", backgroundColor: "#1A56DB", border: "none", borderRadius: "8px", cursor: "pointer" }}
                 >
-                  Continue →
                 </button>
               </div>
             )}
