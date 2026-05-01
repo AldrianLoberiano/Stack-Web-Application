@@ -86,7 +86,6 @@ export function Team() {
           },
         ].map(s => (
           <div key={s.label} style={{ backgroundColor: "#FFFFFF", border: "1px solid #E5E7EB", borderRadius: "12px", padding: "18px 20px", display: "flex", alignItems: "center", gap: "14px" }}>
-            <span style={{ fontSize: "26px" }}>{s.icon}</span>
             <div>
               <p style={{ fontSize: "24px", fontWeight: "700", color: "#111827", margin: 0 }}>{s.value}</p>
               <p style={{ fontSize: "13px", color: "#6B7280", margin: 0 }}>{s.label}</p>
