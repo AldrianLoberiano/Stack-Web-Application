@@ -73,7 +73,6 @@ export function Settings() {
   };
 
   const tabs = [
-    { id: "notifications", label: "Notifications", icon: "🔔" },
   ] as const;
 
   return (
