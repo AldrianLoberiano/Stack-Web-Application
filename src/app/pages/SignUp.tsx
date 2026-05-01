@@ -311,6 +311,7 @@ export function SignUp() {
                         <div style={{ width: "16px", height: "16px", border: "2px solid rgba(255,255,255,0.4)", borderTopColor: "#fff", borderRadius: "50%", animation: "spin 0.8s linear infinite" }} />
                         Creating account...
                       </>
+                    ) : (
                   </button>
                 </div>
               </div>
