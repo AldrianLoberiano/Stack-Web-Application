@@ -175,6 +175,7 @@ export function Dashboard() {
                   }}
                 >
                   <div style={{ marginBottom: "6px", display: "flex", justifyContent: "center", color: "#374151" }}>
+                    <QuickIcon size={22} />
                   <p style={{ fontSize: "12px", fontWeight: "600", color: "#374151", margin: 0 }}>{a.label}</p>
                 </div>
               </Link>
