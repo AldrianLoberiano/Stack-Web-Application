@@ -41,7 +41,6 @@ export function SignUp() {
   };
 
   const plans = [
-    { value: "enterprise", label: "Enterprise", desc: "Custom pricing", icon: "🏢" },
   ];
 
   return (
