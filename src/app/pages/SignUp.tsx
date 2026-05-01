@@ -222,6 +222,7 @@ export function SignUp() {
                   <span style={{ display: "inline-flex", alignItems: "center", gap: "8px" }}>
                     Continue
                     <ChevronRight size={16} />
+                  </span>
                 </button>
               </div>
             )}
