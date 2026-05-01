@@ -74,6 +74,7 @@ export function Team() {
             label: "Active Now",
             value: members.filter(m => m.status === "active").length,
             icon: (
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
         ].map(s => (
           <div key={s.label} style={{ backgroundColor: "#FFFFFF", border: "1px solid #E5E7EB", borderRadius: "12px", padding: "18px 20px", display: "flex", alignItems: "center", gap: "14px" }}>
             <span style={{ fontSize: "26px" }}>{s.icon}</span>
