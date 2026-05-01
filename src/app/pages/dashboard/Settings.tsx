@@ -92,6 +92,7 @@ export function Settings() {
           {tabs.map(tab => (
             (() => {
               const TabIcon = tab.Icon;
+              return (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
