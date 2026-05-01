@@ -217,7 +217,6 @@ export function Team() {
               </div>
               <div style={{ display: "flex", gap: "10px" }}>
                 <button type="button" onClick={() => setShowInviteModal(false)} style={{ flex: 1, padding: "10px", fontSize: "14px", color: "#374151", backgroundColor: "#fff", border: "1px solid #D1D5DB", borderRadius: "8px", cursor: "pointer" }}>Cancel</button>
-                <button type="submit" style={{ flex: 1, padding: "10px", fontSize: "14px", fontWeight: "600", color: "#fff", backgroundColor: "#1A56DB", border: "none", borderRadius: "8px", cursor: "pointer" }}>Send Invite ✉️</button>
               </div>
             </form>
           </div>
