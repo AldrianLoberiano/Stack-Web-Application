@@ -73,7 +73,6 @@ export function Settings() {
   };
 
   const tabs = [
-    { id: "plan", label: "Plan & Billing", icon: "💳" },
     { id: "notifications", label: "Notifications", icon: "🔔" },
   ] as const;
 
