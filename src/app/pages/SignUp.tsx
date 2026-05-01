@@ -269,6 +269,7 @@ export function SignUp() {
                           onChange={handleChange}
                           style={{ display: "none" }}
                         />
+                        <div style={{ color: "#374151", display: "flex", alignItems: "center", justifyContent: "center" }}>
                         <div style={{ flex: 1 }}>
                           <p style={{ fontSize: "14px", fontWeight: "600", color: "#111827", margin: 0 }}>{p.label}</p>
                           <p style={{ fontSize: "13px", color: "#6B7280", margin: 0 }}>{p.desc}</p>
