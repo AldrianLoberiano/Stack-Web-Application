@@ -91,6 +91,7 @@ export function Settings() {
         <div style={{ backgroundColor: "#FFFFFF", border: "1px solid #E5E7EB", borderRadius: "12px", padding: "8px", display: "flex", flexDirection: "column", gap: "2px" }}>
           {tabs.map(tab => (
             (() => {
+              const TabIcon = tab.Icon;
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
