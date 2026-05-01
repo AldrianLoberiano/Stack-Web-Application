@@ -76,6 +76,7 @@ export function Settings() {
     { id: "profile", label: "Profile", Icon: User },
     { id: "security", label: "Security", Icon: Lock },
     { id: "plan", label: "Plan & Billing", Icon: CreditCard },
+    { id: "notifications", label: "Notifications", Icon: Bell },
   ] as const;
 
   return (
