@@ -41,7 +41,6 @@ export function SignUp() {
   };
 
   const plans = [
-    { value: "starter", label: "Starter", desc: "Free · Up to 5 users", icon: "🚀" },
     { value: "pro", label: "Pro", desc: "$29/mo · Unlimited users", icon: "⚡" },
     { value: "enterprise", label: "Enterprise", desc: "Custom pricing", icon: "🏢" },
   ];
