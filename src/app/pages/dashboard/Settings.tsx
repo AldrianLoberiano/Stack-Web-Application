@@ -115,6 +115,7 @@ export function Settings() {
               <TabIcon size={16} />
               {tab.label}
             </button>
+              );
           ))}
         </div>
 
