@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Building2, Mail, Users } from "lucide-react";
 
 const initialMembers = [
   { id: 1, name: "Sarah Johnson", email: "sarah@company.com", role: "Admin", department: "Marketing", status: "active", joined: "Jan 2024", initials: "SJ", color: "#DBEAFE" },
