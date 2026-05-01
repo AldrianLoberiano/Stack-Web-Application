@@ -112,7 +112,6 @@ export function Settings() {
                 width: "100%",
               }}
             >
-              <span>{tab.icon}</span>
               {tab.label}
             </button>
           ))}
