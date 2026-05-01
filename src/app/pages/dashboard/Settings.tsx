@@ -74,6 +74,7 @@ export function Settings() {
 
   const tabs = [
     { id: "profile", label: "Profile", Icon: User },
+    { id: "security", label: "Security", Icon: Lock },
   ] as const;
 
   return (
