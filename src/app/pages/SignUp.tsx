@@ -284,6 +284,7 @@ export function SignUp() {
                           </div>
                         )}
                       </label>
+                      );
                   </div>
                 </div>
 
