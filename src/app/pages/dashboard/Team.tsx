@@ -69,6 +69,7 @@ export function Team() {
             label: "Total Members",
             value: members.length,
             icon: <Users size={22} color="#1A56DB" />,
+          },
         ].map(s => (
           <div key={s.label} style={{ backgroundColor: "#FFFFFF", border: "1px solid #E5E7EB", borderRadius: "12px", padding: "18px 20px", display: "flex", alignItems: "center", gap: "14px" }}>
             <span style={{ fontSize: "26px" }}>{s.icon}</span>
