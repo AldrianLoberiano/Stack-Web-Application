@@ -155,6 +155,7 @@ export function Dashboard() {
               <Link key={a.label} to={a.path} style={{ textDecoration: "none" }}>
                 {(() => {
                   const QuickIcon = a.Icon;
+                  return (
                 <div style={{
                   padding: "16px",
                   backgroundColor: "#F9FAFB",
