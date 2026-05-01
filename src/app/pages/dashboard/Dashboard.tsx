@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import { BarChart3, FolderOpen, Hand, Users, Zap } from "lucide-react";
 import { useAuth } from "../../context/AuthContext";
 
 const stats = [
