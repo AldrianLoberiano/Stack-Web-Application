@@ -220,6 +220,7 @@ export function Team() {
                 <button type="submit" style={{ flex: 1, padding: "10px", fontSize: "14px", fontWeight: "600", color: "#fff", backgroundColor: "#1A56DB", border: "none", borderRadius: "8px", cursor: "pointer", display: "inline-flex", alignItems: "center", justifyContent: "center", gap: "8px" }}>
                   <Mail size={14} />
                   Send Invite
+                </button>
               </div>
             </form>
           </div>
