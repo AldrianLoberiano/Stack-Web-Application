@@ -41,6 +41,7 @@ export function SignUp() {
   };
 
   const plans = [
+    { value: "starter", label: "Starter", desc: "Free · Up to 5 users", Icon: Rocket },
   ];
 
   return (
