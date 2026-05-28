@@ -24,7 +24,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 
 ## Top-Level Folder Overview
 
-- `server/`: Backend API source code (server entry, routes, controllers, and data models).
 - `guidelines/`: Project guidelines and reference documentation.
 - Root files (`package.json`, `vite.config.ts`, `postcss.config.mjs`, etc.): Build, tooling, and project configuration.
 
