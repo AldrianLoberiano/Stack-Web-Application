@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|   |   |   |-- Contact.tsx
 |   |   |   |-- Features.tsx
 |   |   |   |-- Home.tsx
 |   |   |   |-- NotFound.tsx
