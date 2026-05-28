@@ -74,6 +74,7 @@ src/
 |   |-- App.tsx
 |   |-- Root.tsx
 |   `-- routes.tsx
+|-- styles/
 ```
 
 ## Running the Code
