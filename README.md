@@ -82,6 +82,38 @@ src/
 `-- main.tsx
 ```
 
+### Backend
+
+```text
+server/
+|-- controllers/
+|   |-- contactController.js
+|   `-- userController.js
+|-- db/
+|   `-- sqlite.js
+|-- middleware/
+|   `-- auth.js
+|-- models/
+|   |-- Contact.js
+|   `-- User.js
+|-- routes/
+|   |-- contactRoutes.js
+|   `-- userRoutes.js
+`-- server.js
+```
+
+## API Endpoints
+
+Base URL: http://localhost:5000/api
+
+- POST `/users/register` — create a new account
+- POST `/users/login` — sign in
+- GET `/users/me` — get current user (protected)
+- GET `/users` — list users (protected)
+- POST `/contact` — submit contact form
+- GET `/contact` — list contact submissions
+- GET `/health` — health check
+
 ## Running the Code
 
 1. Install dependencies:
@@ -90,11 +122,28 @@ src/
    npm install
    ```
 
-2. Start the development server:
+2. Start the frontend dev server:
 
    ```bash
    npm run dev
    ```
+
+3. Start the backend API server:
+
+   ```bash
+   npm run server
+   ```
+
+## Environment Variables
+
+Create a `.env` file in the project root (optional) and set:
+
+```bash
+PORT=5000
+CLIENT_URL=http://localhost:5173
+JWT_SECRET=your_secret_here
+JWT_EXPIRE=7d
+```
 
 ## Author
 
