@@ -55,6 +55,7 @@ src/
 |   |       |-- layout/
 |   |       |-- navigation/
 |   |       `-- overlay/
+|   |-- context/
 ```
 
 ## Running the Code
