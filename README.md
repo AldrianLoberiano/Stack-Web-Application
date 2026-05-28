@@ -31,6 +31,7 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 
 ## Project Structure
 
+### Frontend
 ```text
 .
 |-- guidelines/
