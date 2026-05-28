@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|   |   `-- theme.css
 |   `-- main.tsx
 |-- ATTRIBUTIONS.md
 |-- index.html
