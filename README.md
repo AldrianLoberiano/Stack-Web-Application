@@ -41,6 +41,7 @@ src/
 |   |   |   `-- ImageWithFallback.tsx
 |   |   |-- guards/
 |   |   |   `-- ProtectedRoute.tsx
+|   |   |-- layouts/
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
