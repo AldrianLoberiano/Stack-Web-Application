@@ -45,6 +45,7 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
+|   |   `-- ui/
 ```
 
 ## Running the Code
