@@ -37,6 +37,7 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 src/
 |-- app/
 |   |-- components/
+|   |   |-- figma/
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
