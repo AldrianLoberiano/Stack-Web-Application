@@ -70,6 +70,7 @@ src/
 |   |       |-- Dashboard.tsx
 |   |       |-- Projects.tsx
 |   |       |-- Settings.tsx
+|   |       `-- Team.tsx
 ```
 
 ## Running the Code
