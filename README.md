@@ -10,6 +10,7 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 - Auth flows (Login, Sign Up) with persisted session in local storage
 - Protected dashboard routes with layout and navigation
 - Dashboard modules: overview, projects, team, and settings
+- Contact submission API (server-side) and health check endpoint
 ## Tech Stack
 
 - Frontend: React, React Router, Vite
