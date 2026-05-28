@@ -56,6 +56,7 @@ src/
 |   |       |-- navigation/
 |   |       `-- overlay/
 |   |-- context/
+|   |   `-- AuthContext.tsx
 ```
 
 ## Running the Code
