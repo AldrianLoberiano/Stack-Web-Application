@@ -34,7 +34,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 ### Frontend
 
 ```text
-|   |   |   |   |-- context-menu.tsx
 |   |   |   |   |-- dialog.tsx
 |   |   |   |   |-- drawer.tsx
 |   |   |   |   |-- dropdown-menu.tsx
