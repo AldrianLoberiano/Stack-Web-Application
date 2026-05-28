@@ -48,6 +48,7 @@ src/
 |   |   `-- ui/
 |   |       |-- core/
 |   |       |   |-- use-mobile.ts
+|   |       |   `-- utils.ts
 ```
 
 ## Running the Code
