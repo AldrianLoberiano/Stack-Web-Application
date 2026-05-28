@@ -42,6 +42,7 @@ src/
 |   |   |-- guards/
 |   |   |   `-- ProtectedRoute.tsx
 |   |   |-- layouts/
+|   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
