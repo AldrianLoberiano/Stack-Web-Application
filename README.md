@@ -5,6 +5,7 @@ It includes marketing pages, authentication flows, and a protected dashboard exp
 The backend exposes JWT-based auth and contact endpoints and currently uses an in-memory data store for rapid local testing.
 
 ## Features
+
 ## Tech Stack
 
 - Frontend: React, React Router, Vite
