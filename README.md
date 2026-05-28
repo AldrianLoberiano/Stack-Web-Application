@@ -34,7 +34,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 ### Frontend
 
 ```text
-|   |   |   |   |-- sheet.tsx
 |   |   |   |   |-- sidebar.tsx
 |   |   |   |   |-- skeleton.tsx
 |   |   |   |   |-- slider.tsx
