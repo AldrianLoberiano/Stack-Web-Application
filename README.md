@@ -1,6 +1,7 @@
 # Project Description
 
 This project is a full-stack web application starter built with a React + Vite frontend and a Node.js + Express backend.
+It includes marketing pages, authentication flows, and a protected dashboard experience, plus reusable UI components.
 
 ## Tech Stack
 
