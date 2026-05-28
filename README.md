@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|-- package.json
 |-- package-lock.json
 |-- postcss.config.mjs
 |-- README.md
