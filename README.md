@@ -69,6 +69,7 @@ src/
 |   |   `-- dashboard/
 |   |       |-- Dashboard.tsx
 |   |       |-- Projects.tsx
+|   |       |-- Settings.tsx
 ```
 
 ## Running the Code
