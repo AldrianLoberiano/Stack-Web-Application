@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|-- package-lock.json
 |-- postcss.config.mjs
 |-- README.md
 `-- vite.config.ts
