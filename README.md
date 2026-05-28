@@ -34,7 +34,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 ### Frontend
 
 ```text
-|   `-- Guidelines.md
 |-- server/
 |   |-- controllers/
 |   |   |-- contactController.js
