@@ -65,6 +65,7 @@ src/
 |   |   |-- Login.tsx
 |   |   |-- NotFound.tsx
 |   |   |-- Pricing.tsx
+|   |   |-- SignUp.tsx
 ```
 
 ## Running the Code
