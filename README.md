@@ -71,6 +71,7 @@ src/
 |   |       |-- Projects.tsx
 |   |       |-- Settings.tsx
 |   |       `-- Team.tsx
+|   |-- App.tsx
 ```
 
 ## Running the Code
