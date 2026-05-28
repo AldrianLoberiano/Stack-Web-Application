@@ -12,6 +12,7 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 - Dashboard modules: overview, projects, team, and settings
 - Contact submission API (server-side) and health check endpoint
 - JWT auth middleware with bcrypt password hashing
+
 ## Tech Stack
 
 - Frontend: React, React Router, Vite
