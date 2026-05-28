@@ -60,6 +60,7 @@ src/
 |   |-- pages/
 |   |   |-- About.tsx
 |   |   |-- Contact.tsx
+|   |   |-- Features.tsx
 ```
 
 ## Running the Code
