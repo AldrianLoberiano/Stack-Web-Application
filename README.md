@@ -73,6 +73,7 @@ src/
 |   |       `-- Team.tsx
 |   |-- App.tsx
 |   |-- Root.tsx
+|   `-- routes.tsx
 ```
 
 ## Running the Code
