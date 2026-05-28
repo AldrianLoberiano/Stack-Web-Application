@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|   |   |-- fonts.css
 |   |   |-- index.css
 |   |   |-- tailwind.css
 |   |   `-- theme.css
