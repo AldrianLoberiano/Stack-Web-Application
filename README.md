@@ -67,6 +67,7 @@ src/
 |   |   |-- Pricing.tsx
 |   |   |-- SignUp.tsx
 |   |   `-- dashboard/
+|   |       |-- Dashboard.tsx
 ```
 
 ## Running the Code
