@@ -68,6 +68,7 @@ src/
 |   |   |-- SignUp.tsx
 |   |   `-- dashboard/
 |   |       |-- Dashboard.tsx
+|   |       |-- Projects.tsx
 ```
 
 ## Running the Code
