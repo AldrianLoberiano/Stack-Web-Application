@@ -59,6 +59,7 @@ src/
 |   |   `-- AuthContext.tsx
 |   |-- pages/
 |   |   |-- About.tsx
+|   |   |-- Contact.tsx
 ```
 
 ## Running the Code
