@@ -39,6 +39,7 @@ src/
 |   |-- components/
 |   |   |-- figma/
 |   |   |   `-- ImageWithFallback.tsx
+|   |   |-- guards/
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
