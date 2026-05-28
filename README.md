@@ -63,6 +63,7 @@ src/
 |   |   |-- Features.tsx
 |   |   |-- Home.tsx
 |   |   |-- Login.tsx
+|   |   |-- NotFound.tsx
 ```
 
 ## Running the Code
