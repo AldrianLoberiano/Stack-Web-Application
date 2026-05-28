@@ -8,6 +8,7 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 
 - Marketing site pages (Home, About, Features, Pricing, Contact)
 - Auth flows (Login, Sign Up) with persisted session in local storage
+- Protected dashboard routes with layout and navigation
 ## Tech Stack
 
 - Frontend: React, React Router, Vite
