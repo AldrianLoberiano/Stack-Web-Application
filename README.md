@@ -52,6 +52,7 @@ src/
 |   |       |-- data/
 |   |       |-- feedback/
 |   |       |-- form/
+|   |       |-- layout/
 ```
 
 ## Running the Code
