@@ -47,6 +47,7 @@ src/
 |   |   |   `-- Header.tsx
 |   |   `-- ui/
 |   |       |-- core/
+|   |       |   |-- use-mobile.ts
 ```
 
 ## Running the Code
