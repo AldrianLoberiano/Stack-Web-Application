@@ -1,4 +1,5 @@
 {
+  "name": "@stack_web_application/my_web_application",
   "private": true,
   "version": "0.0.1",
   "type": "module",
