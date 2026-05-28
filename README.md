@@ -45,7 +45,6 @@ src/
 |   |   |   |-- DashboardLayout.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
-|   |   |   |-- NotFound.tsx
 |   |   |   `-- Pricing.tsx
 |   |   |-- App.tsx
 |   |   |-- Root.tsx
