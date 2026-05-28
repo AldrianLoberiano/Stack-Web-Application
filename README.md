@@ -78,6 +78,7 @@ src/
 |   |-- fonts.css
 |   |-- index.css
 |   |-- tailwind.css
+|   `-- theme.css
 ```
 
 ## Running the Code
