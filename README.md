@@ -46,6 +46,7 @@ src/
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   `-- ui/
+|   |       |-- core/
 ```
 
 ## Running the Code
