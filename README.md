@@ -34,7 +34,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 ### Frontend
 
 ```text
-|   |   |   |   |-- tabs.tsx
 |   |   |   |   |-- textarea.tsx
 |   |   |   |   |-- toggle.tsx
 |   |   |   |   |-- toggle-group.tsx
