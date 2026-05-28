@@ -38,6 +38,7 @@ src/
 |-- app/
 |   |-- components/
 |   |   |-- figma/
+|   |   |   `-- ImageWithFallback.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
