@@ -79,6 +79,7 @@ src/
 |   |-- index.css
 |   |-- tailwind.css
 |   `-- theme.css
+`-- main.tsx
 ```
 
 ## Running the Code
