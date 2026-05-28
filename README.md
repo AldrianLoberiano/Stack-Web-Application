@@ -18,7 +18,6 @@ The backend exposes JWT-based auth and contact endpoints and currently uses an i
 - Frontend: React, React Router, Vite
 - UI and Styling: Tailwind CSS, Radix UI, MUI (Material UI), Emotion
 - Backend: Node.js, Express.js
-- Database: MongoDB with Mongoose
 - Authentication and Security: JWT (`jsonwebtoken`), password hashing (`bcryptjs`)
 - API and Server Utilities: CORS, dotenv
 
