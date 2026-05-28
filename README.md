@@ -58,6 +58,7 @@ src/
 |   |-- context/
 |   |   `-- AuthContext.tsx
 |   |-- pages/
+|   |   |-- About.tsx
 ```
 
 ## Running the Code
