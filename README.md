@@ -1,7 +1,6 @@
 # Project Description
 
 This project is a full-stack web application starter built with a React + Vite frontend and a Node.js + Express backend.
-The codebase is organized to keep frontend, backend, styling, and documentation concerns separated for easier development and maintenance.
 
 ## Tech Stack
 
