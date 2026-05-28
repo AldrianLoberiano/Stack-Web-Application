@@ -4,6 +4,7 @@ This project is a full-stack web application starter built with a React + Vite f
 It includes marketing pages, authentication flows, and a protected dashboard experience, plus reusable UI components.
 The backend exposes JWT-based auth and contact endpoints and currently uses an in-memory data store for rapid local testing.
 
+## Features
 ## Tech Stack
 
 - Frontend: React, React Router, Vite
