@@ -64,6 +64,7 @@ src/
 |   |   |-- Home.tsx
 |   |   |-- Login.tsx
 |   |   |-- NotFound.tsx
+|   |   |-- Pricing.tsx
 ```
 
 ## Running the Code
