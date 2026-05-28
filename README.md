@@ -40,6 +40,7 @@ src/
 |   |   |-- figma/
 |   |   |   `-- ImageWithFallback.tsx
 |   |   |-- guards/
+|   |   |   `-- ProtectedRoute.tsx
 |   |   |   |-- Footer.tsx
 |   |   |   `-- Header.tsx
 |   |   |-- pages/
