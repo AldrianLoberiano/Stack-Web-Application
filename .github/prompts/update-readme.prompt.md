@@ -9,3 +9,4 @@ Update README.md in this workspace based on the user's request: $ARGUMENTS.
 - Update only the sections impacted by the request; avoid unrelated edits.
 - Keep formatting clean and consistent (headings, lists, code blocks).
 - If key information is missing to complete the update, ask concise questions before editing.
+- Apply changes directly to README.md and summarize what changed.
