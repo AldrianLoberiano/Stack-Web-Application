@@ -7,3 +7,4 @@ agent: "agent"
 Update README.md in this workspace based on the user's request: $ARGUMENTS.
 - Read the existing README.md and preserve its tone and structure unless change is requested.
 - Update only the sections impacted by the request; avoid unrelated edits.
+- Keep formatting clean and consistent (headings, lists, code blocks).
